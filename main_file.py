@@ -1,8 +1,7 @@
 import random
 def generate_num():
     digits=list(range(9))
-    return digits[:3]
-    
+    return digits[:3]    
 def user_input():
     inp=list(map(int,(input("ONCE AGAIN, GET IT RIGHT? "))))
     return inp
